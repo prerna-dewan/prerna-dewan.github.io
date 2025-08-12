@@ -1,40 +1,25 @@
-locale: "en-US"
-site_theme: "default"
+# Site settings
 title: "Prerna Dewan"
-title_separator: "-"
-name: &name "Prerna Dewan"
-description: &description "Economics PhD student at the Indian Statistical Institute, Delhi Centre."
-url: "https://prerna-dewan.github.io"
-baseurl: ""
+description: "Economics PhD student at the Indian Statistical Institute, Delhi Centre."
+url: "https://prerna-dewan.github.io" # main site URL
+baseurl: "" # leave empty for user.github.io sites
 repository: "prerna-dewan/prerna-dewan.github.io"
 
+# Author info
 author:
-  avatar: "profile.png"
   name: "Prerna Dewan"
+  avatar: "profile.png" # put your headshot in /images or root folder
   bio: "Economics PhD student at the Indian Statistical Institute, Delhi Centre."
-  location: "New Delhi"
-  employer: "Indian Statistical Institute, Delhi Centre"
-  uri: "https://prerna-dewan.github.io"
+  location: "New Delhi, India"
   email: "prerna.dewan94@gmail.com"
-  googlescholar: "https://scholar.google.com/citations?user=r2rFGO4AAAAJ&hl=en"
   github: "prerna-dewan"
+  googlescholar: "https://scholar.google.com/citations?user=r2rFGO4AAAAJ&hl=en"
   twitter: "PrernaDewan94"
 
-# Optional: keep publication categories if you'll use them
-publication_category:
-  manuscripts:
-    title: 'Journal Articles'
+# Theme
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
-# Site settings
-breadcrumbs: false
-words_per_minute: 160
-future: true
-read_more: "disabled"
-
-# Markdown + plugins
-markdown: kramdown
-highlighter: rouge
-
+# Plugins — ONLY GitHub Pages supported ones
 plugins:
   - jekyll-feed
   - jekyll-gist
@@ -42,3 +27,27 @@ plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
   - jemoji
+  - jekyll-seo-tag
+
+# Markdown processor
+markdown: kramdown
+highlighter: rouge
+
+# Pagination
+paginate: 5
+paginate_path: "/page:num/"
+
+# Defaults — makes new pages/posts use correct layout
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: single
+      author_profile: true
