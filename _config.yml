@@ -51,3 +51,12 @@ defaults:
     values:
       layout: single
       author_profile: true
+
+navigation:
+  - title: "About"
+    url: /about/
+  - title: "Research"
+    url: /research/
+  - title: "CV"
+    url: /cv/
+
