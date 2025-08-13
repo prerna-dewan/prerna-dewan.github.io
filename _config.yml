@@ -50,3 +50,5 @@ sass:
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
+
+@import "custom";
