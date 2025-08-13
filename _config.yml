@@ -24,6 +24,7 @@ remote_theme: "mmistakes/minimal-mistakes"
 # Build settings
 markdown: kramdown
 permalink: /:categories/:title/
+show_excerpts: true
 # paginate:
 
 # Minimal menu
