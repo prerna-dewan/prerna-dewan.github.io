@@ -42,6 +42,10 @@ home:
   layout: home
   author_profile: true
 
+# include
+include:
+  - assets/css/custom.css
+
 # sass
 sass:
   sass_dir: _sass
