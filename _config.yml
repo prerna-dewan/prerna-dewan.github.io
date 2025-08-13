@@ -24,7 +24,7 @@ remote_theme: "mmistakes/minimal-mistakes"
 # Build settings
 markdown: kramdown
 permalink: /:categories/:title/
-paginate: #
+# paginate:
 
 # Minimal menu
 navigation:
@@ -34,6 +34,10 @@ navigation:
     url: /research/
   - title: "CV"
     url: /cv/
+# home
+home:
+  layout: home
+  author_profile: true
 
 # Plugins
 plugins:
