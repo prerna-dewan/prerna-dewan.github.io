@@ -4,6 +4,6 @@ main:
   - title: "Teaching"
     url: /teaching/
   - title: "Misc"
-    url: /blog_posts/     # change path as needed
+    url: /blog/     # change path as needed
   - title: "CV"
     url: /cv/
