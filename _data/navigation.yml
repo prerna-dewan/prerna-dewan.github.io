@@ -1,9 +1,9 @@
 main:
   - title: "Research"
-    url: /publications/  # or /research/ if you rename the file
+    url: /publications/
   - title: "Teaching"
     url: /teaching/
   - title: "Misc"
-    url: /blog/     # change path as needed
+    url: /misc/
   - title: "CV"
     url: /cv/
