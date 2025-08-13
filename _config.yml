@@ -42,6 +42,10 @@ home:
   layout: home
   author_profile: true
 
+# sass
+sass:
+  sass_dir: _sass
+
 # Plugins
 plugins:
   - jekyll-remote-theme
